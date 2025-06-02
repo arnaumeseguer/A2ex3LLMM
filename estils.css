@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fdda2f;
+  font-family: "Verdana", sans-serif;
+  color: black;
+}
+
+/* Logo superior a pantalla completa */
+.banner-top {
+  background-color: rgb(63, 61, 61);
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.logo-top {
+    background-color: #3c3c3c;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Menú de navegació */
+nav {
+  background-color: #3c3c3c;
+  margin-top: 5px;
+  padding: 10px 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+/* Contingut centrat */
+.wrapper {
+  max-width: 960px;
+  background-color: #eeeeee;
+  margin: 0 auto;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+/* Títol i data */
+header h1 {
+  text-align: left;
+  font-size: 1.8em;
+  margin-bottom: 0;
+}
+
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.autor-data {
+  border: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+
+.icones-xarxes img {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+/* Contingut article */
+h2 {
+  color: #333;
+  margin-top: 30px;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+.imatge-article {
+  width: 100%;
+  max-width: 650px;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #999;
+}
+
+/* Peu de pàgina */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #333;
+  background-color: #5a0084;
+}
+
+footer p, footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.logos-footer img {
+  height: 60px;
+  margin: 10px 20px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.logo-wiki-final img {
+  display: block;
+  width: 100vw;
+  height: auto;
+  margin-top: 0;
+  border-top: 2px solid #5a0084;
+}
